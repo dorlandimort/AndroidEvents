@@ -13,8 +13,12 @@
     tools:context="mx.edu.ulsaoaxaca.eventos.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+   <TextView
+       android:id="@+id/txtBattery"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <FrameLayout
+       android:id="@+id/fragment"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></FrameLayout>
 </RelativeLayout>
